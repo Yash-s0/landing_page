@@ -94,22 +94,7 @@ nav a {
     margin: 18px 0 18px 0;
 }
 
-/* button { */
-    /* background-color:#3882F6; */
-    /* color: #E5E7EB; */
-    /* padding: 12px 36px; */
-    /* font-size: 18px; */
-    /* border-radius: 25% 10%; */
-/* } */
 
-button {
-    gap: 0%;
-    padding: 12px 36px;
-    margin: 0%;
-    background-color: #3882F6;
-    font-size: 18px;
-    border-radius: 30ch;
-}
 
 .placeholder-div {
     width: 100%;
@@ -202,7 +187,7 @@ blockquote {
     padding: 48px 10%;
 }
 
-.action-card button:active {
+.action-card{
     border: 2px dotted #E5E7EB;
 
 }
@@ -221,4 +206,21 @@ footer {
     padding: 36px 0;
 }
 
-  
+/* BUTTON */
+
+button {
+    background-color:#3882F6;
+    color: #E5E7EB;
+    padding: 12px 36px;
+    font-size: 18px;
+    border-radius: 25% 10%;
+}
+
+button {
+    gap: 0%;
+    padding: 12px 36px;
+    margin: 0%;
+    background-color: #3882F6;
+    font-size: 18px;
+    border-radius: 30ch;
+}
