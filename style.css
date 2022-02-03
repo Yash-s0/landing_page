@@ -5,6 +5,7 @@
 }
 :root {
     font-family: Arial, sans-serif;
+    background-image: url(./images/squirrel-6916189.jpg);
 }
 
 header {
@@ -44,6 +45,7 @@ h1 {
     flex: 1 1 50%;
 }
 
+
 nav {
     display: flex;
     justify-content: flex-end;
@@ -73,6 +75,7 @@ nav a {
     padding: 120px 0;
 }
 
+
 .half-div {
     flex: 1 1 50%;
 }
@@ -92,23 +95,6 @@ nav a {
     font-size: 18px;
     color: #E5E7EB;
     margin: 18px 0 18px 0;
-}
-
-/* button { */
-    /* background-color:#3882F6; */
-    /* color: #E5E7EB; */
-    /* padding: 12px 36px; */
-    /* font-size: 18px; */
-    /* border-radius: 25% 10%; */
-/* } */
-
-button {
-    gap: 0%;
-    padding: 12px 36px;
-    margin: 0%;
-    background-color: #3882F6;
-    font-size: 18px;
-    border-radius: 30ch;
 }
 
 .placeholder-div {
@@ -221,4 +207,20 @@ footer {
     padding: 36px 0;
 }
 
-  
+/* BUTTON */
+
+button {
+    background-color:#3882F6;
+    color: #E5E7EB;
+    padding: 12px 36px;
+    font-size: 18px;
+    border-radius: 25% 10%;
+}
+button {
+    gap: 0%;
+    padding: 12px 36px;
+    margin: 0%;
+    background-color: #3882F6;
+    font-size: 18px;
+    border-radius: 30ch;
+}
