@@ -3,10 +3,6 @@
     margin: 0;
     padding: 0;
 }
-body{
-    background-image: url(./images/squirrel-6916189.jpg);
-}
-
 :root {
     font-family: Arial, sans-serif;
 }
@@ -113,7 +109,6 @@ button {
     background-color: #3882F6;
     font-size: 18px;
     border-radius: 30ch;
-    
 }
 
 .placeholder-div {
@@ -133,10 +128,11 @@ button {
 
 .images-section {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: center;
-    padding: 60px 0 120px 0;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 0 2.5em;
+    padding: 60px 0 60px 0;
+    flex-wrap: wrap;
 }
 
 .images-heading {
@@ -147,14 +143,17 @@ button {
 }
 
 .image-div {
+    display: flex;
     border: 2px solid blue;
     border-radius: 16px;
     height: 150px;
     width: 150px;
+    flex-wrap: wrap;
 }
 
 .image-row {
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 figure {
@@ -203,13 +202,10 @@ blockquote {
     padding: 48px 10%;
 }
 
-/* .action-card button { */
-    /* border: 2px solid #E5E7EB; */
-/* } */
+.action-card button:active {
+    border: 2px dotted #E5E7EB;
 
-/* .action-card button:active { */
-    /* border: 2px dotted #E5E7EB; */
-/* } */
+}
 
 .action-card h2 {
     color: #F9FAF8;
